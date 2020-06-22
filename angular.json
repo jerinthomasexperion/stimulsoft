@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/stimulsoft-reports-js/Css/stimulsoft.designer.office2013.whiteblue.css",
+              "./node_modules/stimulsoft-reports-js/Css/stimulsoft.viewer.office2013.whiteblue.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/stimulsoft-reports-js/Scripts/stimulsoft.reports.js",
+              "./node_modules/stimulsoft-reports-js/Scripts/stimulsoft.viewer.js",
+              "./node_modules/stimulsoft-reports-js/Scripts/stimulsoft.designer.js"]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,197 @@
+{
+  "ReportGuid": "339fcd9b03dc5ab5f5cfcc8e1a3a3b41",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportFile": "sample.mrt",
+  "ReportCreated": "/Date(1592649196000+0530)/",
+  "ReportChanged": "/Date(1592649196000+0530)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "PreviewSettings": 268435455,
+  "Dictionary": {
+    "Resources": {
+      "0": {
+        "Name": "sample",
+        "Alias": "sample",
+        "Type": "Json",
+        "Image": "rSGMthHb1DNbxMoHCSdBqV6djou2UQ7ZSJ7KnRCOiv9sBy9bjZrYq03nzpAw1LmUsjrMCDFDILttDF6YHVa44P0T4oSDl9WGQF6HGdrp9vB1pZ+bPpD7xF9EOofV5o+uzsrCed9mkJZU+BQQibaT66PAKn5Oqtl1tPg6uoIfiLPplBKoGDF7kK33LETjpyD9ihVBRls="
+      }
+    },
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "root",
+        "Alias": "root",
+        "Columns": {
+          "0": {
+            "Name": "email",
+            "Index": -1,
+            "NameInSource": "email",
+            "Alias": "email",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "first_name",
+            "Index": -1,
+            "NameInSource": "first_name",
+            "Alias": "first_name",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "gender",
+            "Index": -1,
+            "NameInSource": "gender",
+            "Alias": "gender",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "4": {
+            "Name": "ip_address",
+            "Index": -1,
+            "NameInSource": "ip_address",
+            "Alias": "ip_address",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "last_name",
+            "Index": -1,
+            "NameInSource": "last_name",
+            "Alias": "last_name",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "JSON.root"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiJsonDatabase",
+        "Name": "JSON",
+        "Alias": "JSON",
+        "PathData": "resource://sample"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "a5d442a4906bd5c7a3fd8c11db12ec61",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:",
+      "Components": {
+        "0": {
+          "Ident": "StiText",
+          "Name": "Text1",
+          "Guid": "8ffcb21885cac827fa1a9345c28c0ee4",
+          "ClientRectangle": "2.4,4.8,3,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Text": {
+            "Value": "{root.email}"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "TextBrush": "solid:Black"
+        },
+        "1": {
+          "Ident": "StiText",
+          "Name": "Text2",
+          "Guid": "e2f58ded8f531adf4c943853f6b34437",
+          "ClientRectangle": "7.8,5.2,3,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Text": {
+            "Value": "{root.first_name}"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "TextBrush": "solid:Black"
+        },
+        "2": {
+          "Ident": "StiText",
+          "Name": "Text3",
+          "Guid": "08b78bcdc6ffbc3534d905ce8526386a",
+          "ClientRectangle": "2.8,8.4,3,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Text": {
+            "Value": "{root.gender}"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "TextBrush": "solid:Black"
+        },
+        "3": {
+          "Ident": "StiText",
+          "Name": "Text4",
+          "Guid": "f63c1b420442226da1cff77d28e48da8",
+          "ClientRectangle": "11,8,3,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Text": {
+            "Value": "{root.id}"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "TextBrush": "solid:Black"
+        },
+        "4": {
+          "Ident": "StiText",
+          "Name": "Text5",
+          "Guid": "723573314076eadd4b31b395a62389cb",
+          "ClientRectangle": "8.4,1.8,3,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Text": {
+            "Value": "{root.ip_address}"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "TextBrush": "solid:Black"
+        },
+        "5": {
+          "Ident": "StiText",
+          "Name": "Text6",
+          "Guid": "41a0849108715557c2cfd081a181217a",
+          "ClientRectangle": "8.8,11.4,3,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Text": {
+            "Value": "{root.last_name}"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "TextBrush": "solid:Black"
+        }
+      },
+      "PageWidth": 21,
+      "PageHeight": 29.7,
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 1,
+        "Right": 1,
+        "Top": 1,
+        "Bottom": 1
+      }
+    }
+  }
+}
