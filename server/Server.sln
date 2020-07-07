@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StimulSoftTestAngular", "StimulSoftTestAngular\StimulSoftTestAngular.csproj", "{94407AA2-1625-479D-92F0-F406A0DED4AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stimulsoft.server.api", "stimulsoft.server.api\stimulsoft.server.api.csproj", "{9CD7F0E9-B0F7-492F-B7AA-5024730D78EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94407AA2-1625-479D-92F0-F406A0DED4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94407AA2-1625-479D-92F0-F406A0DED4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94407AA2-1625-479D-92F0-F406A0DED4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94407AA2-1625-479D-92F0-F406A0DED4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD7F0E9-B0F7-492F-B7AA-5024730D78EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD7F0E9-B0F7-492F-B7AA-5024730D78EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD7F0E9-B0F7-492F-B7AA-5024730D78EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD7F0E9-B0F7-492F-B7AA-5024730D78EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
