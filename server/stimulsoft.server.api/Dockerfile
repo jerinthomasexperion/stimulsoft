@@ -6,16 +6,16 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["StimulSoftTestAngular/StimulSoftTestAngular.csproj", "StimulSoftTestAngular/"]
-RUN dotnet restore "StimulSoftTestAngular/StimulSoftTestAngular.csproj"
+COPY ["stimulsoft.server.api/stimulsoft.server.api.csproj", "stimulsoft.server.api/"]
+RUN dotnet restore "stimulsoft.server.api/stimulsoft.server.api.csproj"
 COPY . .
-WORKDIR "/src/StimulSoftTestAngular"
-RUN dotnet build "StimulSoftTestAngular.csproj" -c Release -o /app/build
+WORKDIR "/src/stimulsoft.server.api"
+RUN dotnet build "stimulsoft.server.api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "StimulSoftTestAngular.csproj" -c Release -o /app/publish
+RUN dotnet publish "stimulsoft.server.api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "StimulSoftTestAngular.dll"]
+ENTRYPOINT ["dotnet", "stimulsoft.server.api.dll"]
